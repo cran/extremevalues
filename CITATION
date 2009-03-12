@@ -1,0 +1,23 @@
+citHeader("To cite the package 'extremevalues', use:")
+desc <- packageDescription("extremevalues")
+year <- "2008"
+vers <- paste("R package version", desc$Version)
+
+citEntry(entry="Manual",
+   title = "extremevalues, a package for outlier detection",
+   author= personList(as.person("M.P.J. van der Loo")),
+   year  = year,
+   note  = vers,
+   textVersion=paste("M.P.J. van der Loo,  extremevalues: a package for outlier detection (2009)",
+                      vers));
+
+citEntry(entry="Article",
+   title = "An outlier detection method for economic data",
+   journal="Submitted to The Journal of Official Statistics",
+   author= personList(as.person("M.P.J. van der Loo")),
+   year  = year,
+   note  = vers,
+   textVersion=paste("M.P.J. van der Loo (2009),", 
+                     "An outlier detection method for economic data,",
+                     "submitted to The Journal of Official Statistics"))
+
