@@ -16,3 +16,13 @@
 - Fixed a bug in the exponential fit
 08.10.2010
 - Changed to Makkonen's equation for plot positions
+
+14.05.2010
+
+- Killed a bug in normal distribution / method II
+
+- Updated references, some typo's in the man pages
+
+04.06.2010
+- Added version 0.1 of GUI interface
+- Small stuff in helpfiles

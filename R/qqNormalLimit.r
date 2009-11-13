@@ -1,4 +1,5 @@
 # 23.12.2009 version 1, mvdl
+# 14.05.2010 solved bug in parameter passing, mvdl
 qqNormalLimit <- function(y, p , iLambda, alpha)
 {
 
@@ -12,7 +13,7 @@ qqNormalLimit <- function(y, p , iLambda, alpha)
    return(list(limit=c(Left=L$Lmin,Right=L$Lplus),
                residuals=res,
                sigmaE=sigmaE,
-               k=par$k,
-               lambda=par$lambda,
+               mu=par$mu,
+               sigma=par$sigma,
                R2=par$R2))
 }
