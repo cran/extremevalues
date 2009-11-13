@@ -1,20 +1,20 @@
 \name{fitFunctions}
 \keyword{internal}
+\alias{fitNormal}
 \alias{fitLognormal}
 \alias{fitExponential}
 \alias{fitPareto}
 \alias{fitWeibull}
-\alias{fitNormal}
 \title{Fit model distributions}
 \description{
 Fit model distribution to a set of observations.
 }
 \usage{
+fitNormal(y, p)
 fitLognormal(y, p)
 fitPareto(y, p)
-fitExponential(y,p)
-fitWeibull(y,p)
-fitNormal(y,p)
+fitExponential(y, p)
+fitWeibull(y, p)
 }
 
 \arguments{
@@ -39,8 +39,11 @@ the values between the pmin and pmax quantile to the cdf
 of a model distribution. 
 }
 
-\references{An outlier detection method for economic data, M.P.J. van der
-Loo, Submitted to The Journal of Official Statistics (November 2009) }
+\references{
+M.P.J. van der Loo, Distribution based outlier detection for univariate
+data. Discussion paper 10xxxx, Statistics Netherlands, The Hague (in press).
+Available from www.markvanderloo.eu or www.cbs.nl.
+}
 \author{Mark van der Loo, see www.markvanderloo.eu}
 \examples{
 y = 10^rnorm(50);

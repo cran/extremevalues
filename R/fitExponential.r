@@ -15,7 +15,7 @@
 #
 # History
 # 22.10.2009    version 1
-#
+# 05.12.2009    fixed bug in fit of lambda
 
 fitExponential <- function(y,p)
 {
@@ -31,7 +31,8 @@ fitExponential <- function(y,p)
       stop("First and second argument have different length");
 
 
-   Lambda <- -sum(log(1-p))/sum(y);
+#   Lambda <- -sum(log(1-p))/sum(y);
+   Lambda <- -sum(log(1-p)^2)/sum(y * log(1-p))
    r2 <- 1 - var(y - (-log(1-p)/Lambda) )/var(y);
 
    return(list(lambda=Lambda, R2=r2));
