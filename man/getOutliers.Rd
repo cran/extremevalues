@@ -43,7 +43,10 @@ are outliers as well.}
 \item{Nfit}{Number of values used in the fit}
 \item{rho}{\bold{Method I}, the input rho-values for left and right outliers}
 \item{alphaConf}{\bold{Method II}, the input confidence levels for left and right outliers}
-\item{R2}{R-squared value for the fit}
+\item{R2}{R-squared value for the fit. Note that this is the \emph{ordinary least squares} value, defined by 
+\eqn{R^2=1-SS_{err}/SS_{y}}. Where \eqn{SS_{err}} is the squared sum of residuals. For the lognormal, Pareto and Weibull models,
+the \eqn{y}-variable is transformed before fitting. Since predicted values are transformed back before calculating \eqn{SS_{err}},
+this \eqn{R^2} can be negative.  }
 \item{lambda}{(exponential distribution) Estimated location (and spread) parameter for \eqn{f(y)=\lambda\exp(-\lambda y)}}
 \item{mu}{(lognormal distribution) Estimated \eqn{ E(\ln(y))} for lognormal distribution}
 \item{sigma}{(lognormal distribution) Estimated \eqn{Var(ln(y))} for lognormal distribution}
@@ -67,7 +70,7 @@ observations are outliers too.
 
 \references{
 M.P.J. van der Loo, Distribution based outlier detection for univariate
-data. Discussion paper 10xxxx, Statistics Netherlands, The Hague (in press).
+data. Discussion paper 10003, Statistics Netherlands, The Hague.
 Available from www.markvanderloo.eu or www.cbs.nl.
 
 The file <your R directory>/R-<version>/library/extremevalues/extremevalues.pdf
