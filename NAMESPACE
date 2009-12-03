@@ -1,0 +1,17 @@
+UseDynLib()
+export("invErf",
+       "fitExponential", 
+       "fitLognormal",
+       "fitPareto",
+       "fitWeibull",
+       "fitNormal",
+       "getExponentialLimit",
+       "getLognormalLimit",
+       "getParetoLimit",
+       "getWeibullLimit",
+       "getNormalLimit",
+       "getOutliers",
+       "outlierPlot",
+       "rpareto",
+       "dpareto",
+       "qpareto")
