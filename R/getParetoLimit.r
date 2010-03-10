@@ -15,13 +15,19 @@
 #
 # History
 # 22.10.2009    version 1
+# 22.12.2009    version 2 (mvdl) added left limit.
 #
 
 
 getParetoLimit <- function(y, p, N, rho)
 {
    param <- fitPareto(y,p)
-   ell <- param$ym*(N/rho)^{1/param$alpha}
+   ell <- c(Left=-Inf, Right=Inf)
+   if ( !is.na(rho[1]) )
+      ell[1] <- param$ym*(1-rho[2]/N)^{-1/param$alpha}
+   if ( !is.na(rho[2]) )
+      ell[2] <- param$ym*(N/rho[2])^{1/param$alpha}
+   
    return(list(ym=param$ym, 
                alpha=param$alpha,
                nFit=length(y),
