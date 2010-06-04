@@ -26,6 +26,6 @@ or below a confidence limit \eqn{\alpha}, to be determined by the user.
 
 \references{
 M.P.J. van der Loo, Distribution based outlier detection for univariate
-data. Discussion paper 10xxxx, Statistics Netherlands, The Hague (in press).
+data. Discussion paper 10003, Statistics Netherlands, The Hague (2010).
 Available from www.markvanderloo.eu or www.cbs.nl.
 }

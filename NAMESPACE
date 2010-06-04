@@ -1,5 +1,6 @@
 UseDynLib()
-export("invErf",
+export("evGui",
+       "invErf",
        "fitExponential", 
        "fitLognormal",
        "fitPareto",
