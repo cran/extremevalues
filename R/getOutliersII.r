@@ -20,7 +20,8 @@ getOutliersII <- function(y, alpha=c(0.05, 0.05), FLim=c(0.1, 0.9), distribution
    N <- length(Y)
    p <- seq(1,N)/(N+1)
    iLambda <- which( p >= FLim[1] & p <= FLim[2] )
-
+   if (length(iLambda) <= 2 )
+      stop("Number of observations in fit is too small to estimate variance of residuals (need at least 3)")
 # regression and limit calculation
    par <- switch(distribution,
       lognormal   = qqLognormalLimit(Y, p, iLambda, alpha),

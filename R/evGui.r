@@ -1,9 +1,13 @@
 # GUI for outlier detector.
 # TODO: polish code - this code is quick'n'dirty to put it mildly.
 # mvdl, 14.05.2010
+# 03.11.2011 : Changed dependency on gWidgets and gWidgetstcltk.
+# NOTE: This gui will be replaced by a more decent one based on gtk.
 
 evGui <- function(y){
-   require(gWidgets)
+   if(!require(gWidgets)|!require(gWidgetstcltk)){
+    stop("you need to have gWidgets and gWidgetstcltk installed to run  evGui")
+   }
 ## setup
    distributions <- c(normal="normal",
                       pareto="pareto",

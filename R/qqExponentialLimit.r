@@ -5,7 +5,8 @@ qqExponentialLimit <- function(y, p , iLambda, alpha)
    par  <- fitExponential(y[iLambda], p[iLambda])
    yHat <- (-1/par$lambda)*log(1-p)
    res  <- y - yHat
-   sigmaE <- sqrt(mean(res[iLambda]^2))
+   fac <- length(iLambda)/(length(iLambda)-2)
+   sigmaE <- sqrt(fac*mean(res[iLambda]^2))
    
    L <- getLplusLmin(sigmaE, alpha)
 

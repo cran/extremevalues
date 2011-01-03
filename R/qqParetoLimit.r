@@ -5,14 +5,15 @@ qqParetoLimit <- function(y, p , iLambda, alpha)
    par  <- fitPareto(y[iLambda], p[iLambda])
    yHat <- qpareto(p, par$ym, par$alpha)
    res  <- log(y) - log(yHat)
-   sigmaE <- sqrt(mean(res[iLambda]^2))
+   fac <- length(iLambda)/(length(iLambda)-2)
+   sigmaE <- sqrt(fac*mean(res[iLambda]^2))
    
    L <- getLplusLmin(sigmaE, alpha)
 
    return(list(limit=c(Left=L$Lmin,Right=L$Lplus),
                residuals=res,
                sigmaE=sigmaE,
-               k=par$k,
-               lambda=par$lambda,
+               ym=par$ym,
+               alpha=par$alpha,
                R2=par$R2))
 }

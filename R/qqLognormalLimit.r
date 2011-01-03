@@ -5,7 +5,8 @@ qqLognormalLimit <- function(y, p , iLambda, alpha)
    par  <- fitLognormal(y[iLambda],p[iLambda])
    yHat <- qlnorm(p, par$mu, par$sigma)
    res  <- log(y) - log(yHat)
-   sigmaE <- sqrt(mean(res[iLambda]^2))
+   fac <- length(iLambda)/(length(iLambda)-2)
+   sigmaE <- sqrt(fac*mean(res[iLambda]^2))
    
    L <- getLplusLmin(sigmaE, alpha)
 

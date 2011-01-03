@@ -6,7 +6,8 @@ qqNormalLimit <- function(y, p , iLambda, alpha)
    par  <- fitNormal(y[iLambda], p[iLambda])
    yHat <- qnorm(p, par$mu, par$sigma)
    res  <- y - yHat
-   sigmaE <- sqrt(mean(res[iLambda]^2))
+   fac <- length(iLambda)/(length(iLambda)-2)
+   sigmaE <- sqrt(fac*mean(res[iLambda]^2))
    
    L <- getLplusLmin(sigmaE, alpha)
 

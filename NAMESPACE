@@ -1,4 +1,4 @@
-UseDynLib()
+#UseDynLib()
 export("evGui",
        "invErf",
        "fitExponential", 

@@ -5,7 +5,8 @@ qqWeibullLimit <- function(y, p , iLambda, alpha)
    par  <- fitWeibull(y[iLambda],p[iLambda])
    yHat <- qweibull(p, par$k, par$lambda)
    res  <- log(y) - log(yHat)
-   sigmaE <- sqrt(mean(res[iLambda]^2))
+   fac <- length(iLambda)/(length(iLambda)-2)
+   sigmaE <- sqrt(fac*mean(res[iLambda]^2))
    
    L <- getLplusLmin(sigmaE, alpha)
 

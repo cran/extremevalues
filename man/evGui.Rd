@@ -13,13 +13,9 @@ evGui(y)
 \arguments{
   \item{y}{A vector of type \code{numeric} }
 }
-\details{
-}
-\value{
-}
 \note{
 The GUI is programmed in a very  quick and pretty dirty way, but
-it works fine. 
+it works fine. It will be replaced by a gtk-version in the future.
 }
 \references{www.markvanderloo.eu }
 \author{Mark van der Loo }
