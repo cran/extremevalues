@@ -5,9 +5,6 @@
 # NOTE: This gui will be replaced by a more decent one based on gtk.
 
 evGui <- function(y){
-   if(!require(gWidgets)|!require(gWidgetstcltk)){
-    stop("you need to have gWidgets and gWidgetstcltk installed to run  evGui")
-   }
 ## setup
    distributions <- c(normal="normal",
                       pareto="pareto",

@@ -1,5 +1,7 @@
-# version 2.0
-22.12.2009
+version 2.3.0
+- Updates to conform to new CRAN policies
+
+version 2.0
 - getOutliers.r - Changed rho default, added left limit, added some input
   checks
 - getLognormalLimit.r - added left limit
@@ -7,29 +9,20 @@
 - getWeibullLimit.r - added left limit
 - getNormalLimit.r - added left limit
 - getParetoLimit.r - added left limit
-23.12.2009
 - Added Method II 
 - Renaming main functions
 - Revised and extended plotting capabilities
-24.12.2009
 - Major overhaul of the help files
-05.12.2009
 - Fixed a bug in the exponential fit
-08.10.2009
 - Changed to Makkonen's equation for plot positions
 
-# version 2.1
-14.05.2010
+version 2.1
 - Killed a bug in normal distribution / method II
 - Updated references, some typo's in the man pages
-
-04.06.2010
 - Added version 0.1 of GUI interface
 - Small stuff in helpfiles
 
-# version 2.2
-
-03.01.2011
+version 2.2
 - Fixed minor bug in namespace file (thanks to Duncan Murdoch for pointing that out)
 - Changed dependancy on gWidgets and gWidgetstcltk to "suggest" for faster loading.
 - Changed documentation of returned R2-value (thanks to Charles Lobos for useful discussion and remarks)

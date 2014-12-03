@@ -9,7 +9,8 @@ getOutliers is a wrapper function for getOutliersI and getOutliersII.
 \usage{
 getOutliers(y, method="I",  ...)
 getOutliersI(y, rho=c(1,1), FLim=c(0.1,0.9), distribution="normal")
-getOutliersII(y, alpha=c(0.05, 0.05), FLim=c(0.1, 0.9), distribution="normal", returnResiduals=TRUE)
+getOutliersII(y, alpha=c(0.05, 0.05), FLim=c(0.1, 0.9), 
+   distribution="normal", returnResiduals=TRUE)
 }
 \arguments{
 \item{y}{Vector of one-dimensional nonnegative data}
