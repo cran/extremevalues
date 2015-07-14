@@ -1,6 +1,6 @@
-1cb6c5257be7da60ba3ff0fd6e189eec *DESCRIPTION
-38b5332438cce81f16f8d9f501d94f95 *NAMESPACE
-44df8a0f165a4d1836f532ba494ee12a *NEWS
+9cf67398928cfb9585d7ec396aee8c8d *DESCRIPTION
+dde9ae778c938a0c1bf801bf159251c9 *NAMESPACE
+f74e2859bd781219502e023add769dd9 *NEWS
 79a10d88b9efddc0e1e09413df35d0ac *R/evGui.r
 5c5a6803955b24d6caad02c25426e15c *R/fitExponential.r
 379e3d52caf54c7ae016479494e3db3f *R/fitLognormal.r
@@ -26,7 +26,7 @@ b7a61c2cb9474df4c4622fbb8ddeae58 *R/plotMethodII.r
 d155988782c99d0a3d2136d745192782 *R/qqNormalLimit.r
 1230d8711aa36104c4f2e0a83ec76e59 *R/qqParetoLimit.r
 3e9d7a6471b2647eec8c57870ec3e94f *R/qqWeibullLimit.r
-f1b52d0b5f26240a0d7f5ddc576aa7c6 *inst/CITATION
+27481badd67a36e6fa0647b67cb7a83e *inst/CITATION
 81c350e45900f29f21887dd5c7d78403 *inst/doc/extremevalues21.pdf
 c2411dba3db0ad4e4f64273fefa21b19 *man/evGui.Rd
 59a701dede034f39ae0f3503d9d42bff *man/extremevalues.Rd
