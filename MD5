@@ -1,7 +1,7 @@
-a40d80b74b27b66013801bbaa5333f51 *DESCRIPTION
-dde9ae778c938a0c1bf801bf159251c9 *NAMESPACE
-700df57f880316a600e84744d3411f2c *NEWS
-79a10d88b9efddc0e1e09413df35d0ac *R/evGui.r
+c2c2ace60e9ecb17c144741cdbc2ce14 *DESCRIPTION
+4efecfb70bdbb0908ad4607c950b9c88 *NAMESPACE
+a9b5c1b77b6048c9fb35e7d4c0b5c988 *NEWS
+534d9385be29f9a171ccd5a1bdd730de *R/evGui.r
 5c5a6803955b24d6caad02c25426e15c *R/fitExponential.r
 379e3d52caf54c7ae016479494e3db3f *R/fitLognormal.r
 62565287ec53b24eabdddf8ca04d0ba7 *R/fitNormal.r
@@ -17,7 +17,7 @@ d1e8e82ff81b0022a45af207405c8af1 *R/getOutliersII.r
 f945685e7c4bf6db5feec1d2b7db4e97 *R/getParetoLimit.r
 c54647551f8286aa593a1bec67d6bddf *R/getWeibullLimit.r
 a980a70bade33632ee643d5ac24a77e7 *R/invErf.r
-f2aa9733112c64e3039c5617a1a1ba15 *R/outlierPlot.r
+c5d297663f7bf76566dfa8ee0f46f70f *R/outlierPlot.r
 f9598f94b1c96f4ed89cefc433c64520 *R/pareto.r
 b7a61c2cb9474df4c4622fbb8ddeae58 *R/plotMethodII.r
 87b26ba207a502e54f813e358f3ca745 *R/qqExponentialLimit.r
@@ -26,8 +26,10 @@ b7a61c2cb9474df4c4622fbb8ddeae58 *R/plotMethodII.r
 d155988782c99d0a3d2136d745192782 *R/qqNormalLimit.r
 1230d8711aa36104c4f2e0a83ec76e59 *R/qqParetoLimit.r
 3e9d7a6471b2647eec8c57870ec3e94f *R/qqWeibullLimit.r
+59953aa6dda730e9e2a1e8a9a02e60b0 *build/vignette.rds
 297aa5cc73d0fec1ddb62b418be7898e *inst/CITATION
-81c350e45900f29f21887dd5c7d78403 *inst/doc/extremevalues21.pdf
+5e72bc2cec31297004c6d19242e707fd *inst/doc/SN201003.Rnw
+d1e6a1d4196c8a14168f1cb24772e051 *inst/doc/SN201003.pdf
 c2411dba3db0ad4e4f64273fefa21b19 *man/evGui.Rd
 59a701dede034f39ae0f3503d9d42bff *man/extremevalues.Rd
 bf59b9270ac360f9ccbea0a1960b8c01 *man/fitFunctions.Rd
@@ -37,3 +39,5 @@ bf59b9270ac360f9ccbea0a1960b8c01 *man/fitFunctions.Rd
 fa57ba23d9b0d7bbb4e37f1eb4825b08 *man/invErf.Rd
 79a9432f8cd6c5c4f8e20f82d2ba85d1 *man/outlierPlot.Rd
 1f94b419442d4bf41d04250156d153b5 *man/pareto.Rd
+b85a3330f9f2d45c1d25af014ea26918 *vignettes/201003x10pub.pdf
+5e72bc2cec31297004c6d19242e707fd *vignettes/SN201003.Rnw
