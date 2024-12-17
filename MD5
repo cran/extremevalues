@@ -1,7 +1,6 @@
-05b8aed56643713fb3e65a0ec7548423 *DESCRIPTION
-4efecfb70bdbb0908ad4607c950b9c88 *NAMESPACE
-55b70b70c09f38da8a7fd302b6d8cb06 *NEWS
-534d9385be29f9a171ccd5a1bdd730de *R/evGui.r
+fb6d325b6dcc4705ab772fd7b040998f *DESCRIPTION
+15f951f3947ad8b3fdb9e3e44fec555b *NAMESPACE
+aba6671cb20e73ba10716c0e8b4d0092 *NEWS
 5c5a6803955b24d6caad02c25426e15c *R/fitExponential.r
 379e3d52caf54c7ae016479494e3db3f *R/fitLognormal.r
 62565287ec53b24eabdddf8ca04d0ba7 *R/fitNormal.r
@@ -26,11 +25,10 @@ b7a61c2cb9474df4c4622fbb8ddeae58 *R/plotMethodII.r
 d155988782c99d0a3d2136d745192782 *R/qqNormalLimit.r
 1230d8711aa36104c4f2e0a83ec76e59 *R/qqParetoLimit.r
 3e9d7a6471b2647eec8c57870ec3e94f *R/qqWeibullLimit.r
-97753051d418b2890867b3eff7a1ab1d *build/vignette.rds
+11452a8fe2a2747deb5eb6173619b6a8 *build/vignette.rds
 097cc4f983bb452aaab73c35d60deb12 *inst/CITATION
 5e72bc2cec31297004c6d19242e707fd *inst/doc/SN201003.Rnw
-52c2b309de56f19415dfb3d13e9de37e *inst/doc/SN201003.pdf
-c2411dba3db0ad4e4f64273fefa21b19 *man/evGui.Rd
+57731eae16ec268b409398ad421c86b9 *inst/doc/SN201003.pdf
 59a701dede034f39ae0f3503d9d42bff *man/extremevalues.Rd
 bf59b9270ac360f9ccbea0a1960b8c01 *man/fitFunctions.Rd
 3738f1f5076680104663a4aba66e845a *man/getLimit.Rd
